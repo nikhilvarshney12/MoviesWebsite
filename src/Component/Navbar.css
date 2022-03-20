@@ -1,0 +1,52 @@
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #22254b;
+    display: flex;
+    justify-content: center;
+}
+
+/* logo */
+.container{
+    width: 90%;
+    height:70px;
+    /* background-color:red; */
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 15%;
+    /* background-color:yellow; */
+    font-size:40px;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:70px;
+    color:white;
+
+}
+.nav{
+    height: 70px;
+    width: 35%;
+    /* background-color:green; */
+    display: flex;
+}
+.header_container{
+    justify-content:space-between;
+
+}
+.nav-item{
+    width:20%;
+    height: 70px;
+    /* background-color:grey; */
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height:70px;
+    color:white;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background-color:white;
+    color:  #22254b;
+}
